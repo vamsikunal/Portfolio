@@ -1,0 +1,38 @@
+title: Intro
+description: Jekyll Website
+baseurl: ""
+url: 
+
+json:
+  name: Kunal Mahajan
+  description:
+    - Hello!
+    - I'am a Final Year Student at IIIT Naya Raipur.
+    - Pursuing bachelor in Data Science and Artificial Intelligence.
+  cv: assets/Kunal_Mahajan_201020427.pdf
+  contact:
+    phone: +91 87708-94177
+    personal email: kmahajan88@gmial.com
+    college email: kunal20102@iiitnr.edu.in
+  profiles:
+    linkedin: https://www.linkedin.com/in/kunal-mahajan-731aa8200/
+    github: https://github.com/vamsikunal
+    leetcode: https://leetcode.com/Kunal1904/
+    
+  
+
+exclude:
+  - LICENSE
+  - README.md
+
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+whitelist:
+  - jekyll-sitemap
+
+sass:
+  sass_dir: _sass
+  style: compressed
+  sourcemap: never
